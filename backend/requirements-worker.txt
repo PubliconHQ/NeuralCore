@@ -1,15 +1,15 @@
 # requirements-worker.txt
 -r requirements.txt
-flower==2.0.1
-torch==2.5.1
-transformers==4.47.1
-accelerate==1.2.1
-peft==0.14.0
-bitsandbytes==0.45.0
-deepspeed==0.16.1
-sentence-transformers==3.3.1
-datasets==3.2.0
-trl==0.13.0
-einops==0.8.0
+flower==2.2.0
+torch==2.14.1
+transformers==5.18.0
+accelerate==1.15.0
+peft==0.21.1
+bitsandbytes==0.50.2
+deepspeed==0.19.7
+sentence-transformers==6.1.0
+datasets==5.0.1
+trl==1.14.1
+einops==0.8.2
 celery==5.4.0
-edge-tts>=7.2.8
+edge-tts==7.2.8
